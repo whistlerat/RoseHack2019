@@ -1,0 +1,27 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 3%;
+}
+
+h1 {
+  font-style: bold;
+  color: Pink;
+}
+
+h4 {
+    font-style: bold;
+    color: white;
+  }
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: whitesmoke;    
+}
+
+.gifs {
+    padding-top: 1%;
+}

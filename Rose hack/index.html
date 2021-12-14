@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<link rel="stylesheet" href="externalstyle.css">
+		<title> Miyazaki </title>
+	</head>
+	<style>
+		img{
+			border-radius:  10000px;
+			width: 300px;
+			height: 300px;
+		}
+	</style>
+	<body>
+		
+	 	<img id = "totoro" src = "totoro.0.jpg"
+	 	alt= "Totoro">
+
+	 	<img id = "spirited" src ="spirited_away_profilelarge.jpg" alt = "spirited">
+
+	 	<img id = "howl" src = "howls.jpeg" alt = "howl">
+
+	</body>
+
+<script>
+	document.getElementById("totoro").addEventListener("click", swapImage)
+
+	document.getElementById("spirited").addEventListener("click", swapImage1)
+
+	document.getElementById("howl").addEventListener("click", swapImage2)
+
+	document.getElementById("spirited").addEventListener("click", swapImage1)
+
+	function swapImage(){
+		document.getElementById("totoro").src = "Studio2BGhibli2BCatbus.jpg" 
+	}
+	function swapImage1(){
+		document.getElementById("spirited").src = "spirited-away-full-782485.jpg"
+	}
+	function swapImage2(){
+		document.getElementById("howl").src = "Howl-s-Moving-Castle-howls-moving-castle-4896036-852-480.jpg" 
+	}
+	function swapImage(){
+		document.getElementById("totoro").src = "Studio2BGhibli2BCatbus.jpg" 
+	}
+</script>

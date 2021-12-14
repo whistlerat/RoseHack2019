@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hayao Miyazaki</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- import the webpage's stylesheet -->
+        <!-- adds css file w/ link tag below-->
+        <link rel="stylesheet" href="Miyazaki_Tribute.css">
+        
+        <!-- import the webpage's javascript file -->
+        <script src="/script.js" defer></script>
+      </head> 
+      <style>
+        #overlay {
+        position: absolute;
+        display: none;
+        width: 291px;
+        height: 218px;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 2;
+        cursor: pointer;
+        }
+        </style>
+      <body style="background-image:url('mf.jpg')">        
+        <!--Kiki gif-->
+        <!--Newif too pixelated-->
+
+        <div id="overlay" onclick="off()"></div>
+        <div style="padding:20px">
+        
+        <center>
+        <h1 style="font-size:3vw;">Tribute to Miyazaki</h1>
+
+        <!--Miyazaki pic-->
+        <a href="https://www.studioghibli.com.au/"><img src="Miyazaki_Kanji.jpg"></a>
+            
+        <p style="font-size:1.4vw;">
+        <br>
+        Miyazaki Hayao is a Japanese anime director whose work with Studio Ghibli has broken
+        various records with his animated films. Some notable films include <em>Princess Mononoke</em> 
+        (1997), a blockbuster that broke Japanese box-office records when it was released, and 
+        <em>Spirited Away</em> (2001), which won the top prize at the 2002 Berlin International Film 
+        Festival, best Asian film at the Hong Kong Film Awards, best picture at the 2002 Japanese
+        Academy Awards, and was, at this point in Japanese history, the top-grossing film of all 
+        time. He temporarily retired in 2015, but then returned to work on the film <em>Kemushi no Boro</em>,
+        his first fully computer-animated short film that was later turned into a feature-length release.
+        </p>
+
+        </div>
+
+
+    <div class="gifs">
+
+        <h1 style="font-size:3vw;">Notable Movies</h1>
+
+        <div id="overlay"></div>
+            <img src="Sheeta.gif" alt="Castle in the Sky"
+            style="width:291px;height:218px;" onclick = "on()">>
+
+        <img src="Fireflies.gif" alt="The Grave of the Fireflies"
+        style="width:291px;height:218px;">
+
+        <img src="Totoro.gif" alt="Totoro"
+        style="width:291px;height:218px;">
+        
+        <img src="Kiki.gif" alt="Kiki Flying"
+        style="width:291px;height:218px;">
+
+        <img src="Mononoke.gif" alt="Princess Mononoke"
+        style="width:291px;height:218px;">
+
+        <img src="Haku.gif" alt="Spirited Away"
+        style="width:291px;height:218px;">
+
+        <img src="Howl&Sophie.gif" alt="Howl's Moving Castle"
+        style="width:291px;height:218px;">
+        
+        <img src="Pon.gif" alt="Ponyo Swimming"
+        style="width:291px;height:218px;">
+
+        <h1 style="font-size:3vw;">Conclusion</h1>
+
+        <img src="Feels.gif" alt="Spirited Away"
+        style="width:291px;height:218px;">
+
+    </div>   
+    </center>
+
+        <script>
+        function on() {
+        document.getElementById("overlay").style.display = "block";
+        }
+
+        function off() {
+        document.getElementById("overlay").style.display = "none";
+}
+</script>
+        
+        <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+        <script src="https://button.glitch.me/button.js"></script>
+      </body>
+</html>

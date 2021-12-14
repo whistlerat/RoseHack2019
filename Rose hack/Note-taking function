@@ -1,0 +1,22 @@
+#include <vector> 
+#include <iostream>
+#include <string>
+#include <fstream>
+
+using namespace std;
+
+//assumption: we have file with notes, so we must take input from that file
+//make function to ask for notes file (website) would hardcode
+//make function for inputting notes
+//function for connecting notes to calendar (through inputs about date (sana))
+
+
+//get the note-taking to work!
+
+string filename = "filename.txt";
+vector<string> filecontent;
+ifstream inFS(filename);
+
+void inputNote(string filename){
+	while(file)
+}

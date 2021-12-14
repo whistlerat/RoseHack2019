@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hayao Miyazaki</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- import the webpage's stylesheet -->
+        <!-- adds css file w/ link tag below-->
+        <link rel="stylesheet" href="Miyazaki_Tribute.css">
+
+        <style>
+            #overlay {
+                position: relative;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 1000;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+            }
+            #overlay2 {
+                position: relative;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+            }
+            #overlay3 {
+                position: relative;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+            }
+            #overlay4 {
+                position: relative;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+            }
+            #overlay5 {
+                position: relative;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+            }
+            #overlay6 {
+                position: relative;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+            }
+            #overlay7 {
+                position: relative;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+            }
+            #overlay8 {
+                position: relative;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 2;
+                cursor: pointer;
+            }
+        </style>
+                  
+    </head> 
+
+      <body style="background-image:url('mf2.jpg')">        
+        <center>
+        <h1 style="font-size:3vw;">Tribute to Miyazaki</h1>
+
+        <!--Miyazaki pic-->
+        <a href="https://www.studioghibli.com.au/" target="_blank"><img src="Miyazaki_Kanji.jpg"></a>
+            
+        <p style="font-size:1.4vw;">
+        <br>
+        Miyazaki Hayao is a Japanese anime director whose work with Studio Ghibli has broken
+        various records with his animated films. Some notable films include <em>Princess Mononoke</em> 
+        (1997), a blockbuster that broke Japanese box-office records when it was released, and 
+        <em>Spirited Away</em> (2001), which won the top prize at the 2002 Berlin International Film 
+        Festival, best Asian film at the Hong Kong Film Awards, best picture at the 2002 Japanese
+        Academy Awards, and was, at this point in Japanese history, the top-grossing film of all 
+        time. He temporarily retired in 2015, but then returned to work on the film <em>Kemushi no Boro</em>,
+        his first fully computer-animated short film that was later turned into a feature-length release.
+        </p>
+        <hr>
+
+    <div class="gifs">
+
+        <h1 style="font-size:3vw;">Notable Movies</h1>
+
+        <!--Castle in the Sky-->
+        <div id="overlay" onclick="off()">
+            <h4>Castle in the Sky (1986)</h4>
+        </div>
+
+            <img src="Sheeta.gif" alt="Castle in the Sky" onclick="on()"
+            style="width:291px;height:218px;">
+
+
+        <!--The Grave of the Fireflies-->
+        <div id="overlay2" onclick="off2()">
+            <h4>The Grave of the Fireflies (1988)</h4>
+        </div>
+
+        <img src="Fireflies.gif" alt="The Grave of the Fireflies" onclick="on2()"
+        style="width:291px;height:218px;">
+
+
+        <!--Totoro-->
+        <div id="overlay3" onclick="off3()">
+                <h4>Totoro (1988)</h4>
+        </div>
+
+        <img src="Totoro.gif" alt="Totoro" onclick="on3()"
+        style="width:291px;height:218px;">
+
+
+        
+        <!--Kiki's Delivery Service-->
+        <div id="overlay4" onclick="off4()">
+                <h4>Kiki's Delivery Service (1989)</h4>
+        </div>
+
+        <img src="Kiki.gif" alt="Kiki Flying" onclick="on4()"
+        style="width:291px;height:218px;">
+
+
+        <!--Princess Mononoke-->
+        <div id="overlay5" onclick="off5()">
+                <h4>Princess Mononoke (1997)</h4>
+        </div>
+
+        <img src="Mononoke.gif" alt="Princess Mononoke" onclick="on5()"
+        style="width:291px;height:218px;">
+
+
+
+        <!--Sprited Away-->
+        <div id="overlay6" onclick="off6()">
+                <h4>Sprited Away (2001)</h4>
+        </div>
+
+        <img src="Haku.gif" alt="Spirited Away" onclick="on6()"
+        style="width:291px;height:218px;">
+
+
+
+        <!--Howl's Moving Castle-->
+        <div id="overlay7" onclick="off7()">
+                <h4>Howl's Moving Castle (2004)</h4>
+        </div>
+
+        <img src="Howl&Sophie.gif" alt="Howl's Moving Castle" onclick="on7()"
+        style="width:291px;height:218px;">
+        
+
+
+        <!--Ponyo-->
+        <div id="overlay8" onclick="off8()">
+                <h4>Ponyo (2008)</h4>
+        </div>
+
+        <img src="Pon.gif" alt="Ponyo Swimming" onclick="on8()"
+        style="width:291px;height:218px;">
+
+        <p>
+            <br>
+        </p>
+        <hr>
+
+        <h1 style="font-size:3vw;">Conclusion</h1>
+
+        <img src="Screaming.gif" alt="Totoro"
+        style="width:291px;height:218px;">
+
+        <img src="Running.gif" alt="Ponyo"
+        style="width:291px;height:218px;">
+
+
+        <img src="Stairs.gif" alt="Howl's Moving Castle"
+        style="width:291px;height:218px;">
+
+
+        <img src="Feels.gif" alt="Spirited Away"
+        style="width:291px;height:218px;">
+
+    </div>   
+    </center>
+    <script>
+
+        //<!--Castle in the Sky-->
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+            
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        //<!--The Grave of the Fireflies-->
+        function on2() {
+            document.getElementById("overlay2").style.display = "block";
+        }
+            
+        function off2() {
+            document.getElementById("overlay2").style.display = "none";
+        }
+
+        //<!--Totoro-->
+        function on3() {
+            document.getElementById("overlay3").style.display = "block";
+        }
+            
+        function off3() {
+            document.getElementById("overlay3").style.display = "none";
+        }
+
+        //<!--Kiki's Delivery Service-->
+        function on4() {
+            document.getElementById("overlay4").style.display = "block";
+        }
+            
+        function off4() {
+            document.getElementById("overlay4").style.display = "none";
+        }
+
+        //<!--Princess Mononoke-->
+        function on5() {
+            document.getElementById("overlay5").style.display = "block";
+        }
+            
+        function off5() {
+            document.getElementById("overlay5").style.display = "none";
+        }
+
+        //<!--Sprited Away-->
+        function on6() {
+            document.getElementById("overlay6").style.display = "block";
+        }
+            
+        function off6() {
+            document.getElementById("overlay6").style.display = "none";
+        }
+
+        //<!--Howl's Moving Castle-->
+        function on7() {
+            document.getElementById("overlay7").style.display = "block";
+        }
+            
+        function off7() {
+            document.getElementById("overlay7").style.display = "none";
+        }
+
+        //<!--Ponyo-->
+        function on8() {
+            document.getElementById("overlay8").style.display = "block";
+        }
+            
+        function off8() {
+            document.getElementById("overlay8").style.display = "none";
+        }
+
+    </script>
+        
+        <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+        <script src="https://button.glitch.me/button.js"></script>
+      </body>
+</html>
